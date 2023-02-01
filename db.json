@@ -1,0 +1,34 @@
+{
+    "locations": [
+        {
+            "id": 1,
+            "name": "Seasons",
+            "image": "https://larkstreetbid.org/directory/wp-content/uploads/2016/04/Seasons_Lark-Street-1.jpg",
+            "rating": "Based"
+        },
+        {
+            "id": 2,
+            "name": "Bombers Burrito Bar",
+            "image": "https://www.bombersburritobar.com/wp-content/uploads/2017/06/img_8736-1000x666.jpg",
+            "rating": "Mid"
+        },
+        {
+            "id": 3,
+            "name": "Washington Park",
+            "image": "https://assets.simpleviewinc.com/simpleview/image/fetch/c_limit,q_80,w_1200/https://res.cloudinary.com/simpleview/image/upload/crm/albany/washington_park_0_3060ac4d-5056-a36a-0beaa789d423b5f3.jpg",
+            "rating": "Mid"
+        },
+        {
+            "id": 4,
+            "name": "The Plaza",
+            "image": "https://www.albany.com/images/esp-egg-capitol.jpg",
+            "rating": "Based"
+        },
+        {
+            "id": 5,
+            "name": "The Lionheart",
+            "image": "https://larkstreetbid.org/directory/wp-content/uploads/2016/04/Lionheart-Pub_Lark-Street-600x600.jpg",
+            "rating": "Cringe"
+        }
+    ]
+}
