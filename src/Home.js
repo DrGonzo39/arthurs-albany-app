@@ -1,15 +1,6 @@
-import React, {useState, useEffect} from "react";
+import React from "react";
 
-function Home() {
-    const [mainImage, setMainImage] = useState([]);
-
-    useEffect(() => {
-        fetch("http://localhost:3000/homepage")
-        .then((r) => r.json())
-        .then((data) => {
-            setMainImage(data.image);
-        })
-    }, []);
+function Home({ mainImage }) {
     
     return (
         <div>
