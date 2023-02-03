@@ -1,5 +1,14 @@
 {
+    "homepage": 
+        {
+            "id": 0,
+            "name": "Downtown Main",
+            "image":"https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,h_640,q_60,w_1600/v1/clients/albany/DSC_0002_6d454304-9e27-4605-8758-c68135aa8d9c.jpg",
+            "rating": "" 
+        },
+    
     "locations": [
+       
         {
             "id": 1,
             "name": "Seasons",
