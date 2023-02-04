@@ -7,7 +7,7 @@ function Home({ mainImage }) {
             <h1>The Albany/Lark Street Guide Zone!</h1>
             <p>Whether you're a hippie, a skater, or just lookin' for a good time, we'll help you get there!</p>
             <p>Check out our 'Location List' page, you can even leave a review!</p>
-            <img src={mainImage} alt="main albany pic"/>
+            <img className="main" src={mainImage} alt="main albany pic"/>
         </div>
     )
 }
