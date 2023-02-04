@@ -1,8 +1,10 @@
 import React, {useState, useEffect} from "react";
+import { Route, Switch} from "react-router-dom"
 import Home from "./Home";
 import './App.css';
 import LocationList from "./LocationList";
 import LocationForm from "./LocationForm";
+import NavBar from "./NavBar";
 
 function App() {
   const [mainImage, setMainImage] = useState([]);
@@ -31,9 +33,18 @@ function App() {
 
   return (
     <div>
-      <Home mainImage={mainImage}/>
-      <LocationList locations={locations}/>
-      <LocationForm onAddLocation={handleNewLocation}/>
+      <NavBar/>
+      <Switch>
+        <Route exact path="/">
+        <Home mainImage={mainImage}/>
+        </Route>
+        <Route exact path="/locationlist">
+        <LocationList locations={locations}/>
+        </Route> 
+        <Route exact path="/locationform">
+        <LocationForm onAddLocation={handleNewLocation}/>
+        </Route>
+      </Switch>
     </div>
   );
 }
