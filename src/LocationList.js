@@ -1,21 +1,29 @@
 import React,{useState} from "react";
 
 function LocationList({ locations }) {
-    const [locationRating, setLocationRating] = useState("")
+    const [basedCount, setBasedCount] = useState(0);
+    const [midCount, setMidCount] = useState(0);
+    const [cringeCount, setCringeCount] = useState(0);
 
-    function handleRatingChange(e) {
-        setLocationRating(e.target.value);
+    function handleBasedCountChange() {
+        setBasedCount(basedCount + 1);
+    }
+
+    function handleMidCountChange() {
+        setMidCount(midCount + 1);
+    }
+
+    function handleCringeCountChange() {
+        setCringeCount(cringeCount + 1);
     }
 
     const rednerList = locations.map((location) => {
         return <div key={location.id}>
             <h1>{location.name}</h1>
             <img alt={location.id} src={location.image} />
-            <select onChange={handleRatingChange} value={locationRating}>
-                <option>Based</option>
-                <option>Mid</option>
-                <option>Cringe</option>
-            </select>
+            <button onClick={handleBasedCountChange}>Based {basedCount}</button>
+            <button onClick={handleMidCountChange}>Mid {midCount}</button>
+            <button onClick={handleCringeCountChange}>Cringe {cringeCount}</button>
         </div>
     })
 
