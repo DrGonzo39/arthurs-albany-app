@@ -21,16 +21,19 @@ function LocationList({ locations }) {
         return <div key={location.id}>
             <h1>{location.name}</h1>
             <img alt={location.id} src={location.image} />
-            <button onClick={handleBasedCountChange}>Based {basedCount}</button>
-            <button onClick={handleMidCountChange}>Mid {midCount}</button>
-            <button onClick={handleCringeCountChange}>Cringe {cringeCount}</button>
+            <button onClick={handleBasedCountChange}>Based</button>
+            <button onClick={handleMidCountChange}>Mid </button>
+            <button onClick={handleCringeCountChange}>Cringe </button>
             <p className="location_bio">{location.text}</p>
         </div>
     })
 
     return (
         <div>
-        {rednerList}
+            <h3>Based-votes {basedCount}</h3>
+            <h3>Mid-votes {midCount}</h3>
+            <h3>Cringe-votes {cringeCount}</h3>
+            {rednerList}
         </div>
     )
 };
