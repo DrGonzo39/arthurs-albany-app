@@ -24,6 +24,7 @@ function LocationList({ locations }) {
             <button onClick={handleBasedCountChange}>Based {basedCount}</button>
             <button onClick={handleMidCountChange}>Mid {midCount}</button>
             <button onClick={handleCringeCountChange}>Cringe {cringeCount}</button>
+            <p className="location_bio">{location.text}</p>
         </div>
     })
 
