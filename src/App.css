@@ -21,6 +21,7 @@ h3 {
   display: inline;
   font-style: oblique;
   margin-left: 15px ;
+  color: chartreuse;
 }
 
 button {
@@ -31,6 +32,22 @@ button {
   height: 75px;
   color: coral;
   border: darkgoldenrod;
+}
+
+img.main {
+  margin-left: 125px;
+}
+
+img {
+  margin-left: 75px;
+}
+
+input {
+  display: block;
+  margin-top: 15px;
+  margin-left: 25px;
+  width: 300px;
+  height: 150px;
 }
 .App-logo {
   height: 40vmin;
