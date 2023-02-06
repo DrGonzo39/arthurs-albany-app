@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+Welcome to the Albany Guide center aka Arthur's Phase 2 Project!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+-The goal of this website was to create a guide that would use the React principles I learned in this phase
+    without overloading on the text, or json code involved. Since the instructions were to keep those simple.
 
-## Available Scripts
+-So, what you'll see is a website that is set up presenting to the user that it is mainly there to peak their interest
+    and that we want them to take that interest and go check out each location for themselves! The LocationList component
+    holds all of that information, fetched from my set up API of course. Also in that location, I've set up buttons, where
+    the user can vote 'Based' (meaning good), 'Mid' (meaning just ok), or 'Cringe' (meaning bad). Then, just the total number 
+    of those overall votes for each are rendered at the top of the page. We just want to give an overall impression of the city,
+    a user can add any text or comment they want when adding a new location!
 
-In the project directory, you can run:
+-Then, any tourist or visitor of the city can add a location to the list that they think fellow visitors of the city should 
+    check out. They can add a title, image, and any text or comments on that location they want to. Code wise, the LocationForm
+    is a controlled component, where the inputs derive their value from the component's state. When the form is submitted, that data
+    is then added to, and rendered on the LocationList component. 
 
-### `npm start`
+-I have the necessary 3 client side routes for the 3 components the user's will mostly be interacting with, which I honestly think
+    was a necessary part of a website like this! I styled the links and much of the page as well, minus the backgroud. Also as a side
+    note, I seperated the About and Home components because I didn't want to overload one component with too much text, and I didn't 
+    want a route to About!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-Thanks for visiting!
