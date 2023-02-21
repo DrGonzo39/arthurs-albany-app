@@ -42,6 +42,10 @@ img {
   margin-left: 75px;
 }
 
+.location_bio {
+  margin-right: 500px;
+}
+
 input {
   display: block;
   margin-top: 15px;
